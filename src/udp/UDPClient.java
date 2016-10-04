@@ -7,7 +7,7 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 
 /**
- * Version modifié
+ * Version Console modifié
  * https://systembash.com/
  * 
  * @author
@@ -20,7 +20,7 @@ public class UDPClient {
 	}
 
 	public static void main(String args[]) throws Exception {
-		System.out.println("--CLIENT--");
+		System.out.println("--CLIENT UDP (quit pour fermer)--");
 		BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));
 		DatagramSocket clientSocket = new DatagramSocket();
 		InetAddress IPAddress = InetAddress.getByName("localhost");

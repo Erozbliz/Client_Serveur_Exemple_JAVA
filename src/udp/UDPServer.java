@@ -5,7 +5,7 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 
 /**
- * Version modifié
+ * Version Console modifié
  * https://systembash.com/
  * 
  * @author
@@ -18,7 +18,7 @@ public class UDPServer {
 	}
 
 	public static void main(String args[]) throws Exception {
-		System.out.println("--SERVEUR--");
+		System.out.println("--SERVEUR UDP (quit pour fermer)--");
 		DatagramSocket serverSocket = new DatagramSocket(9876);
 		byte[] receiveData = new byte[1024];
 		byte[] sendData = new byte[1024];
