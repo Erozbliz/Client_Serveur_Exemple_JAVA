@@ -12,7 +12,7 @@ public class ThreadYield implements Runnable {
 
 	public ThreadYield(String str) {
 		t = new Thread(this, str);
-		// this will call run() function
+		// this will call run() function test 
 		t.start();
 	}
 
